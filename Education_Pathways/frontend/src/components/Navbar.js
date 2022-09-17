@@ -69,6 +69,18 @@ export default class NavbarComp extends Component {
                 
 
               </Nav>
+              <Nav>
+                <Nav.Link as={Link} to="/myName">
+                  ECE444-Lab1
+                </Nav.Link>
+
+                {/* <Nav.Link href="/search" style={{ color: "white", display: "inline" }}>
+                  Search
+                </Nav.Link> */}
+
+                
+
+              </Nav>
             </Navbar.Collapse>
           </Navbar>
         </div>
@@ -91,6 +103,15 @@ We are looking for feedback to improve Education Pathways and make it more usefu
 <p>Student team from <a href="https://shuiblue.github.io/UofT-ECE444/">ECE444-Fall2021</a> : Janelle Cuevas, Jean Lin, Terry Luan, Cansin Varol, Nick Woo</p>
 
 
+      </div>
+              {/* <SearchResultDisplay /> */}
+            </Route>
+            <Route path="/myName">
+            <div >
+            <p>
+
+     Ron Thomas<br></br>
+</p>
       </div>
               {/* <SearchResultDisplay /> */}
             </Route>
